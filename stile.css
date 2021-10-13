@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+	background: black;
+}
+
+h1 {
+	
+	
+	color:white;
+	font-size: 750%;
+	
+	
+}
+p {
+	color:gray;
+}
+
+.p1 {
+	float:left;
+	font-family: Sitka Heading Bold Italic;
+	font-size: 350%;
+}
+.p2 {
+	float:right;
+	font-family: Sitka Heading Bold Italic;
+	font-size: 250%;
+	margin-right: 6%;
+}
+
+.obch {
+	
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	height: 925px;
+}
+
+.block-top {
+	background: black;
+	height: 20%;
+	
+}
+
+
+
+
+.block-left {
+	
+	height: 80%;
+	width: 50%;
+	float: left;
+}
+
+.block-right {
+	
+	height: 80%;
+	width: 50%;
+	float: right;
+	margin-right: %;
+}
+
+.foto {
+	width: 100%;
+}
+
+.buy {
+	display: inline-block;
+	background: linear-gradient(40deg, #000080, #000000);
+	font-weight: 300;
+	padding: 3em 15em;
+	outline: none;
+	border: 0px solid;
+	border-radius: 0px;
+	transition: 0.2s;
+	color:white;
+	margin-left: 52.5px;
+	user-select: none; /* Убираем текстовое выделение */
+	text-decoration: none;	/* Убираем подчеркивание */
+	outline: none; /* Убираем контур вокруг ссылки */
+	
+	margin-top: 20%;
+	margin-left: 4%;
+}
+.buy:hover { background: rgba(255,255,255,.2); }
+.buy:active { background: white; }
